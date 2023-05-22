@@ -10,102 +10,107 @@
 </head>
 
 <body>
-    <form action="../index.html">
-        <div>
-            <label for="first">First name</label>
-            <input type="text" name="firstname" value="Wonhee" id="first">
-        </div>
-        <div>
-            <label for="last">Last name</label>
-            <input type="text" name="lastname" value="Bong" id="last">
-        </div>
-        <div>
-            <label for="user">Username</label>
-            <input type="text" name="Username" value="HelloGuy" id="user">
+    <div class="h1 text-center pt-5">회원가입 작성내용</div>
+        <div class="container pt-5">
+            <form action="./home.html">
+                <div>
+                    <label for="first">First name</label>
+                    <input type="text" name="firstname" value="Wonhee" id="first">
+                </div>
+                <div>
+                    <label for="last">Last name</label>
+                    <input type="text" name="lastname" value="Bong" id="last">
+                </div>
+                <div>
+                    <label for="user">Username</label>
+                    <input type="text" name="Username" value="HelloGuy" id="user">
 
-        </div>
-        <div>
-            <label for="email">Email (Optional)</label>
-            <input type="text" name="Email" value="leeban21@naver.com" id="email">
-        </div>
-        <div>
-            <label for="add">Address</label>
-            <input type="text" name="address" value="Yeongdeungpo 132 st." id="add">
-        </div>
-        <div>
-            <label for="country">Country:</label>
+                </div>
+                <div>
+                    <label for="email">Email (Optional)</label>
+                    <input type="text" name="Email" value="leeban21@naver.com" id="email">
+                </div>
+                <div>
+                    <label for="add">Address</label>
+                    <input type="text" name="address" value="Yeongdeungpo 132 st." id="add">
+                </div>
+                <div>
+                    <label for="country">Country:</label>
 
-            <select name="country" id="country">
-                <option value="Korea">Korea</option>
-                <option value="China">China</option>
-                <option value="USA">USA</option>
-                <option value="france">France</option>
-                <option value="Germany">Germany</option>
-            </select>
-        </div>
-        <div>
-            <label for="state">State:</label>
+                    <select name="country" id="country">
+                        <option value="Korea">Korea</option>
+                        <option value="China">China</option>
+                        <option value="USA">USA</option>
+                        <option value="france">France</option>
+                        <option value="Germany">Germany</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="state">State:</label>
 
-            <select name="seoul" id="state">
-                <option value="Gyeonggi-do">Gyeonggi-do </option>
-                <option value="Chungcheong-do">Chungcheong-do</option>
-                <option value="Gangwon-do">Gangwon-do</option>
+                    <select name="seoul" id="state">
+                        <option value="Gyeonggi-do">Gyeonggi-do </option>
+                        <option value="Chungcheong-do">Chungcheong-do</option>
+                        <option value="Gangwon-do">Gangwon-do</option>
 
-            </select>
-        </div>
-        <div>
-            <label for="zipping">Zip</label>
-            <input type="text" name="zip" id="zipping" value="1234">
-        </div>
-        <div>
-            <input type="checkbox" name="ship" id="sipping" checked>
-            <label for="shipping">Shipping address is the same as my billing address</label>
+                    </select>
+                </div>
+                <div>
+                    <label for="zipping">Zip</label>
+                    <input type="text" name="zip" id="zipping" value="1234">
+                </div>
+                <div>
+                    <input type="checkbox" name="ship" id="sipping" checked>
+                    <label for="shipping">Shipping address is the same as my billing address</label>
 
-        </div>
-        <div>
-            <input type="checkbox" name="Save" id="savethis">
-            <label for="savethis">Save this information for next time</label>
-
-
-        </div>
-        <div>
-            <h1>Payment</h1>
-        </div>
-        <div>
-            <input type="radio" name="creditcard" id="cre" value="creditcard" checked>
-            <label for="cre">Credit card </label>
-        </div>
-        <div>
-            <input type="radio" name="debitcard" id="deb" value="debitcard">
-            <label for="deb">Debit card</label>
-        </div>
-        <div>
-            <input type="radio" name="paypal" id="pay" value="paypal">
-            <label for="pay">Paypal</label>
-        </div>
-        <div>
-            <label for="name">Name on card</label>
-            <input type="text" name="nameoncard" id="name" value="BongWonHee">
-            <label for="name">Full name as displayed on card</label>
-        </div>
-        <div>
-            <label for="number">Credit card number</label>
-            <input type="text" name="creditcardnumber" id="number" value="1234 5123 5127 2518">
-        </div>
-        <div>
-            <label for="exp">Expiration</label>
-            <input type="date" name="expiration" id="exp" value="2027-05-01">
-        </div>
-        <div>
-            <label for="cvv">CVV</label>
-            <input type="text" name="CVV" id="cvv" value="523">
-        </div>
-        <div>
-            <button type="submit"> Continue to Checkout </button>
-        </div>
+                </div>
+                <div>
+                    <input type="checkbox" name="Save" id="savethis">
+                    <label for="savethis">Save this information for next time</label>
 
 
-    </form>
+                </div>
+                <div>
+                    <h1>Payment</h1>
+                </div>
+                <div>
+                    <input type="radio" name="creditcard" id="cre" value="creditcard" checked>
+                    <label for="cre">Credit card </label>
+                </div>
+                <div>
+                    <input type="radio" name="debitcard" id="deb" value="debitcard">
+                    <label for="deb">Debit card</label>
+                </div>
+                <div>
+                    <input type="radio" name="paypal" id="pay" value="paypal">
+                    <label for="pay">Paypal</label>
+                </div>
+                <div>
+                    <label for="name">Name on card</label>
+                    <input type="text" name="nameoncard" id="name" value="BongWonHee">
+                    <label for="name">Full name as displayed on card</label>
+                </div>
+                <div>
+                    <label for="number">Credit card number</label>
+                    <input type="text" name="creditcardnumber" id="number" value="1234 5123 5127 2518">
+                </div>
+                <div>
+                    <label for="exp">Expiration</label>
+                    <input type="date" name="expiration" id="exp" value="2027-05-01">
+                </div>
+                <div>
+                    <label for="cvv">CVV</label>
+                    <input type="text" name="CVV" id="cvv" value="523">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary"> 로그인 </button>
+                </div>
+
+
+            </form>
+        </div>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
